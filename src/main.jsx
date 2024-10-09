@@ -5,17 +5,35 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import Home from './pages/Home';
+import Home from './pages/home/Home';
 import Details from './pages/Details';
+import Paintings from './pages/Paintings';
+import Root from './Root';
+import Contact from './pages/Contact';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home/>,
-  },
-  {
-    path: "/painting/:id/:slug",
-    element: <Details />
+    path: '/',
+    element: <Root />,
+    children: [
+      {
+        path: "/",
+        element: <Home/>,
+      },
+      {
+        path: "/paintings",
+        element: <Paintings/>,
+      },
+    
+      {
+        path: "/painting/:id/:slug",
+        element: <Details />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
+      }
+    ]
   }
 ]);
 
