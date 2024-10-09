@@ -22,13 +22,28 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-          <a>COURSES</a>
+          <NavLink
+            to="/learn"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            LEARN
+          </NavLink>
         </li>
         <li>
-          <a>ABOUT</a>
+          <NavLink
+            to="/about"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            ABOUT
+          </NavLink>
         </li>
         <li>
-          <a>CONTACT</a>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            CONTACT
+          </NavLink>
         </li>
       </ul>
     </div>

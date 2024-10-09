@@ -10,6 +10,8 @@ import Details from './pages/Details';
 import Paintings from './pages/Paintings';
 import Root from './Root';
 import Contact from './pages/Contact';
+import About from './pages/About';
+import Learn from './pages/Learn';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />
+      },
+      {
+        path: '/about',
+        element: <About />
+      },
+      {
+        path: '/learn',
+        element: <Learn />
       }
     ]
   }
