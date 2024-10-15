@@ -1,7 +1,9 @@
+import Title from "../components/Title";
+
 const Learn = () => {
   return (
     <div>
-      <h2>Learn from me</h2>
+      <Title>Learn from me</Title>
       <p>In case you wish to learn from me</p>
     </div>
   );

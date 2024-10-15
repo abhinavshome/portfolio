@@ -1,45 +1,51 @@
-[
+{
+  "latest": ["smile", "goat", "salsa"],
+  "paintings": [
     {
-        "id": 1,
-        "title": "Blue Jeans",
-        "imageUrl": "blue-jeans.jpeg",
-        "dimensions": "11\" x 15\"",
-        "price": 2500
+      "id": "blue-jeans",
+      "title": "Blue Jeans",
+      "imageUrl": "blue-jeans.jpeg",
+      "dimensions": "11\" x 15\"",
+      "price": 2500,
+      "sold": true
     },
     {
-        "id": 2,
-        "title": "Innocence",
-        "imageUrl": "child.jpeg",
-        "dimensions": "7\" x 11\"",
-        "price": 1500
+      "id": "innocence",
+      "title": "Innocence",
+      "imageUrl": "child.jpeg",
+      "dimensions": "7\" x 11\"",
+      "price": 1500
     },
     {
-        "id": 3,
-        "title": "Smile",
-        "imageUrl": "girl-1.jpeg",
-        "dimensions": "5\" x 8\"",
-        "price": 1500
+      "id": "smile",
+      "title": "Smile",
+      "imageUrl": "girl-1.jpeg",
+      "dimensions": "5\" x 8\"",
+      "price": 1500,
+      "latest": true
     },
     {
-        "id": 4,
-        "title": "GOAT",
-        "imageUrl": "goat.jpg",
-        "dimensions": "11\" x 15\"",
-        "price": 2500
+      "id": "goat",
+      "title": "GOAT",
+      "imageUrl": "goat.jpg",
+      "dimensions": "11\" x 15\"",
+      "price": 2500
     },
     {
-        "id": 5,
-        "title": "Jungle Tree",
-        "imageUrl": "jungle.jpeg",
-        "dimensions": "8\" x 11\"",
-        "price": 2000,
-        "sold": true
+      "id": "jungle-tree",
+      "title": "Jungle Tree",
+      "imageUrl": "jungle.jpeg",
+      "dimensions": "8\" x 11\"",
+      "price": 2000,
+      "sold": true
     },
     {
-        "id": 6,
-        "title": "Salsa",
-        "imageUrl": "salsa.jpeg",
-        "dimensions": "11\" x 15\"",
-        "price": 2500
+      "id": "salsa",
+      "title": "Salsa",
+      "imageUrl": "salsa.jpeg",
+      "dimensions": "11\" x 15\"",
+      "price": 2500,
+      "latest": true
     }
-]
+  ]
+}

@@ -1,7 +1,10 @@
+// import Title from "../components/Title";
+import Intro from "./home/Intro";
+
 const About = () => {
   return (
     <div>
-      <h2>My Story</h2>
+      <Intro />
     </div>
   );
 };

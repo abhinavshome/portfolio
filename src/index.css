@@ -1,23 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Work+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Work+Sans:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .title {
+    @apply font-medium pt-4 pb-4 text-lg uppercase;
+  }
+}
+
 body {
-    font-family: "Open Sans", sans-serif;
-    width: 1080px;
-    margin: 0 auto;
-    background-color: #222;
-    color: #fff;
-    font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  width: 1080px;
+  margin: 0 auto;
+  background-color: #222;
+  color: #fff;
+  font-size: 13px;
 }
 
 a {
-    color: #F47519;
-    text-decoration: none;
-    cursor: pointer;
+  color: #f47519;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .sold {
-    color: red;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px 20px;
+    width: auto;
+  }
 }

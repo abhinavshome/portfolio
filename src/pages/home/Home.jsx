@@ -1,18 +1,20 @@
 import "./Home.css";
-import Intro from "./Intro";
-import SideBar from "./SideBar";
-import Slider from "./Slider";
+// import Intro from "./Intro";
+import Latest from "./Latest";
+// import SideBar from "./SideBar";
+// import Slider from "./Slider";
 
 const Home = () => {
   return (
     <div>
-      <div className="content">
-        <div style={{ width: "800px" }}>
-          <Slider />
-          <Intro />
+      <div className="">
+        <div>
+          {/* <Slider /> */}
+          <Latest />
+          {/* <Intro /> */}
         </div>
         <div>
-          <SideBar />
+          {/* <SideBar /> */}
         </div>
       </div>
     </div>
