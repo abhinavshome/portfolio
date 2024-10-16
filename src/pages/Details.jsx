@@ -12,7 +12,7 @@ const Details = () => {
         <img src={`/images/${painting.imageUrl}`} width={"1220px"} />
       </div>
       <div className="sm:ml-6">
-        <div className="text-lg font-semibold">{painting.title}</div>
+        <div className="text-lg font-semibold text-[#f47519]">{painting.title}</div>
         <div>{painting.dimensions}</div>
         <div> &#8377;{painting.price}</div>
         <br />
@@ -20,7 +20,7 @@ const Details = () => {
         <div>
           To buy this painting, you can <Link to="/contact">contact</Link> me
           and tell me the title of the painting you wish to buy. We will
-          coordinate form there.
+          coordinate from there.
         </div>
         {/* <button className="bg-blue-500 text-white pl-4 pr-4 px-1 py-1 cursor-pointer">
           Buy Now

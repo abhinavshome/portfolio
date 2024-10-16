@@ -1,13 +1,92 @@
 {
-  "latest": ["smile", "goat", "salsa"],
+  "latest": ["goa", "eggplants", "newspaper", "lioness", "yellow-elephant"],
   "paintings": [
+    {
+      "id": "goa",
+      "title": "Call it a day",
+      "imageUrl": "goa.jpg",
+      "dimensions": "7 \" x 10\"",
+      "price": 2500
+    },
+    {
+      "id": "eggplants",
+      "title": "Eggplants",
+      "imageUrl": "eggplants.png",
+      "dimensions": "5.5 \" x 7.5 \"",
+      "price": 2000
+    },
+    {
+      "id": "newspaper",
+      "title": "Newspaper",
+      "imageUrl": "newspaper.jpeg",
+      "dimensions": "7.5 \" x 9.5 \"",
+      "price": 2500
+    },
+    {
+      "id": "avocets",
+      "title": "Avocet Birds",
+      "imageUrl": "avocet.jpg",
+      "dimensions": "7 \" x 10\"",
+      "price": 2500
+    },
+    {
+      "id": "squirell",
+      "title": "Peeping Squirell",
+      "imageUrl": "squirell.jpg",
+      "dimensions": "5.5 \" x 7.5 \"",
+      "price": 2000,
+      "sold": true
+    },
+    {
+      "id": "lioness",
+      "title": "Lioness",
+      "imageUrl": "lioness.jpg",
+      "dimensions": "5.5 \" x 7.5 \"",
+      "price": 2000
+    },
+    {
+      "id": "yellow-elephant",
+      "title": "Elephant",
+      "imageUrl": "yellow-elephant.jpg",
+      "dimensions": "7 \" x 10\"",
+      "price": 2500
+    },
+    {
+      "id": "lotus",
+      "title": "Lotus Pond",
+      "imageUrl": "lotus.jpg",
+      "dimensions": "7 \" x 10\"",
+      "price": 2500
+    },
+    {
+      "id": "elephant-and-baby",
+      "title": "Elephant and Baby",
+      "imageUrl": "elephant-and-baby.jpg",
+      "dimensions": "7.5 \" x 11\"",
+      "price": 2500
+    },
+    {
+      "id": "tomatoes",
+      "title": "Tomatoes",
+      "imageUrl": "tomatoes.jpg",
+      "dimensions": "7.5 \" x 9\"",
+      "price": 2500
+    },
     {
       "id": "blue-jeans",
       "title": "Blue Jeans",
       "imageUrl": "blue-jeans.jpeg",
       "dimensions": "11\" x 15\"",
-      "price": 2500,
+      "price": 3000,
       "sold": true
+    },
+    {
+      "id": "salsa",
+      "title": "Salsa",
+      "imageUrl": "salsa.jpeg",
+      "dimensions": "11\" x 15\"",
+      "price": 3000,
+      "latest": true
     },
     {
       "id": "innocence",
@@ -36,16 +115,22 @@
       "title": "Jungle Tree",
       "imageUrl": "jungle.jpeg",
       "dimensions": "8\" x 11\"",
-      "price": 2000,
+      "price": 2500,
       "sold": true
     },
     {
-      "id": "salsa",
-      "title": "Salsa",
-      "imageUrl": "salsa.jpeg",
-      "dimensions": "11\" x 15\"",
-      "price": 2500,
-      "latest": true
+      "id": "red-parrot",
+      "title": "Red Parrot",
+      "imageUrl": "red-parrot.jpg",
+      "dimensions": "7.5\" x 9.5\"",
+      "price": 2100
+    },
+    {
+      "id": "ducks",
+      "title": "Ducks",
+      "imageUrl": "ducks.jpeg",
+      "dimensions": "8\" x 11\"",
+      "price": 2500
     }
   ]
 }

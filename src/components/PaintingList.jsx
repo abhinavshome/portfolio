@@ -1,17 +1,17 @@
-const PaintingList = ({ paintings }) => {
+import { useNavigate } from "react-router-dom";
 
+const PaintingList = ({ paintings }) => {
+  const navigate = useNavigate();
   return (
     <div className="flex gap-5 flex-wrap">
         {paintings.map((painting, i) => (
-          <div className="min-w-[200px] mb-6 bg-[#333]" key={i}>
+          <div className="min-w-[200px] mb-6 bg-[#333]" key={i} onClick={() => navigate(`/painting/${painting.id}`)}>
             <div className="sm:w-[200px] sm:h-[200px] sm:overflow-hidden">
               <img className="w-full h-auto" src={`/images/${painting.imageUrl}`} />
             </div>
             <div style={{ padding: "5px" }}>
-              <div className="text-lg font-semibold">
-                <a href={`/painting/${painting.id}`}>
+              <div className="text-lg font-semibold text-[#f47519] cursor-pointer">
                   {painting.title}
-                </a>
               </div>
               <div>{painting.dimensions}</div>
               <div className="flex justify-between">

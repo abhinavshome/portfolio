@@ -1,7 +1,9 @@
+import Title from "../../components/Title";
+
 const Intro = () => {
   return (
     <div>
-      <div className="font-medium pt-8 pb-2 text-lg">LIL&apos; BIT ABOUT ME</div>
+      <Title>LIL&apos; BIT ABOUT ME</Title>
       <div className="leading-6">
         <p className="pb-6">
           I am a watercolor artist and I love to paint and teach watercolors. I
