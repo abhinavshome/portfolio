@@ -18,9 +18,17 @@ const Details = () => {
         <br />
         <br />
         <div>
+          <p>
           To buy this painting, you can <Link to="/contact">contact</Link> me
           and tell me the title of the painting you wish to buy. We will
           coordinate from there.
+          </p>
+
+          <p>
+            Price mentioned includes framing and shipping. Please contact for framing options.
+          </p>
+
+
         </div>
         {/* <button className="bg-blue-500 text-white pl-4 pr-4 px-1 py-1 cursor-pointer">
           Buy Now
