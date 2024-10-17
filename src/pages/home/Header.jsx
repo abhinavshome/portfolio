@@ -59,7 +59,7 @@ const Header = () => {
             LEARN
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             to="/about"
             className={({ isActive }) => (isActive ? "active" : "")}
@@ -67,7 +67,7 @@ const Header = () => {
           >
             ABOUT
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             to="/contact"

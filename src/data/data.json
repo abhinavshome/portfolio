@@ -66,11 +66,32 @@
       "price": 2500
     },
     {
+      "id": "evening-ride",
+      "title": "Evening Ride",
+      "imageUrl": "evening-ride.jpg",
+      "dimensions": "8\" x 11\"",
+      "price": 2500
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "imageUrl": "lighthouse.jpg",
+      "dimensions": "11\" x 8.5\"",
+      "price": 2100
+    },
+    {
       "id": "tomatoes",
       "title": "Tomatoes",
       "imageUrl": "tomatoes.jpg",
       "dimensions": "7.5 \" x 9\"",
       "price": 2500
+    },
+    {
+      "id": "dog",
+      "title": "Doggy Eyes",
+      "imageUrl": "dog.png",
+      "dimensions": "7.5\" x 9\"",
+      "price": 2100
     },
     {
       "id": "blue-jeans",
@@ -87,13 +108,6 @@
       "dimensions": "11\" x 15\"",
       "price": 3000,
       "latest": true
-    },
-    {
-      "id": "innocence",
-      "title": "Innocence",
-      "imageUrl": "child.jpeg",
-      "dimensions": "7\" x 11\"",
-      "price": 1500
     },
     {
       "id": "smile",
@@ -131,6 +145,13 @@
       "imageUrl": "ducks.jpeg",
       "dimensions": "8\" x 11\"",
       "price": 2500
+    },
+    {
+      "id": "innocence",
+      "title": "Innocence",
+      "imageUrl": "child.jpeg",
+      "dimensions": "7\" x 11\"",
+      "price": 1500
     }
   ]
 }

@@ -1,5 +1,5 @@
 import "./Home.css";
-// import Intro from "./Intro";
+import Intro from "./Intro";
 import Latest from "./Latest";
 // import SideBar from "./SideBar";
 // import Slider from "./Slider";
@@ -11,7 +11,7 @@ const Home = () => {
         <div>
           {/* <Slider /> */}
           <Latest />
-          {/* <Intro /> */}
+          <Intro />
         </div>
         <div>
           {/* <SideBar /> */}

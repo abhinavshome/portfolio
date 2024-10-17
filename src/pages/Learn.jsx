@@ -4,7 +4,10 @@ const Learn = () => {
   return (
     <div>
       <Title>Learn from me</Title>
-      <p>In case you wish to learn from me</p>
+      <p>
+        I will start teaching arts in near future. Will update this section soon
+        with some schedule.
+      </p>
     </div>
   );
 };
