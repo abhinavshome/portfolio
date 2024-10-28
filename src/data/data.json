@@ -6,35 +6,35 @@
       "title": "Call it a day",
       "imageUrl": "goa.jpg",
       "dimensions": "7 \" x 10\"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "eggplants",
       "title": "Eggplants",
       "imageUrl": "eggplants.png",
       "dimensions": "5.5 \" x 7.5 \"",
-      "price": 2000
+      "price": 1000
     },
     {
       "id": "newspaper",
       "title": "Newspaper",
       "imageUrl": "newspaper.jpeg",
       "dimensions": "7.5 \" x 9.5 \"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "avocets",
       "title": "Avocet Birds",
       "imageUrl": "avocet.jpg",
       "dimensions": "7 \" x 10\"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "squirell",
       "title": "Peeping Squirell",
       "imageUrl": "squirell.jpg",
       "dimensions": "5.5 \" x 7.5 \"",
-      "price": 2000,
+      "price": 1000,
       "sold": true
     },
     {
@@ -42,63 +42,63 @@
       "title": "Lioness",
       "imageUrl": "lioness.jpg",
       "dimensions": "5.5 \" x 7.5 \"",
-      "price": 2000
+      "price": 1000
     },
     {
       "id": "yellow-elephant",
       "title": "Elephant",
       "imageUrl": "yellow-elephant.jpg",
       "dimensions": "7 \" x 10\"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "lotus",
       "title": "Lotus Pond",
       "imageUrl": "lotus.jpg",
       "dimensions": "7 \" x 10\"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "elephant-and-baby",
       "title": "Elephant and Baby",
       "imageUrl": "elephant-and-baby.jpg",
       "dimensions": "7.5 \" x 11\"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "evening-ride",
       "title": "Evening Ride",
       "imageUrl": "evening-ride.jpg",
       "dimensions": "8\" x 11\"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "lighthouse",
       "title": "Lighthouse",
       "imageUrl": "lighthouse.jpg",
       "dimensions": "11\" x 8.5\"",
-      "price": 2100
+      "price": 1500
     },
     {
       "id": "tomatoes",
       "title": "Tomatoes",
       "imageUrl": "tomatoes.jpg",
       "dimensions": "7.5 \" x 9\"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "dog",
       "title": "Doggy Eyes",
       "imageUrl": "dog.png",
       "dimensions": "7.5\" x 9\"",
-      "price": 2100
+      "price": 1500
     },
     {
       "id": "blue-jeans",
       "title": "Blue Jeans",
       "imageUrl": "blue-jeans.jpeg",
       "dimensions": "11\" x 15\"",
-      "price": 3000,
+      "price": 2100,
       "sold": true
     },
     {
@@ -106,7 +106,7 @@
       "title": "Salsa",
       "imageUrl": "salsa.jpeg",
       "dimensions": "11\" x 15\"",
-      "price": 3000,
+      "price": 2100,
       "latest": true
     },
     {
@@ -114,7 +114,7 @@
       "title": "Smile",
       "imageUrl": "girl-1.jpeg",
       "dimensions": "5\" x 8\"",
-      "price": 1500,
+      "price": 1000,
       "latest": true
     },
     {
@@ -122,14 +122,14 @@
       "title": "GOAT",
       "imageUrl": "goat.jpg",
       "dimensions": "11\" x 15\"",
-      "price": 2500
+      "price": 2100
     },
     {
       "id": "jungle-tree",
       "title": "Jungle Tree",
       "imageUrl": "jungle.jpeg",
       "dimensions": "8\" x 11\"",
-      "price": 2500,
+      "price": 2100,
       "sold": true
     },
     {
@@ -137,21 +137,21 @@
       "title": "Red Parrot",
       "imageUrl": "red-parrot.jpg",
       "dimensions": "7.5\" x 9.5\"",
-      "price": 2100
+      "price": 1500
     },
     {
       "id": "ducks",
       "title": "Ducks",
       "imageUrl": "ducks.jpeg",
       "dimensions": "8\" x 11\"",
-      "price": 2500
+      "price": 1500
     },
     {
       "id": "innocence",
       "title": "Innocence",
       "imageUrl": "child.jpeg",
       "dimensions": "7\" x 11\"",
-      "price": 1500
+      "price": 1000
     }
   ]
 }
