@@ -1,26 +1,29 @@
 {
-  "latest": ["goa", "eggplants", "newspaper", "lioness", "yellow-elephant"],
+  "latest": ["lioness", "yellow-elephant", "avocets", "salsa", "yellow-elephant"],
   "paintings": [
     {
       "id": "goa",
       "title": "Call it a day",
       "imageUrl": "goa.jpg",
       "dimensions": "7 \" x 10\"",
-      "price": 1500
+      "price": 1500,
+      "sold": true
     },
     {
       "id": "eggplants",
       "title": "Eggplants",
       "imageUrl": "eggplants.png",
       "dimensions": "5.5 \" x 7.5 \"",
-      "price": 1000
+      "price": 1000,
+      "sold": true
     },
     {
       "id": "newspaper",
       "title": "Newspaper",
       "imageUrl": "newspaper.jpeg",
       "dimensions": "7.5 \" x 9.5 \"",
-      "price": 1500
+      "price": 1500,
+      "sold": true
     },
     {
       "id": "avocets",
@@ -63,14 +66,16 @@
       "title": "Elephant and Baby",
       "imageUrl": "elephant-and-baby.jpg",
       "dimensions": "7.5 \" x 11\"",
-      "price": 1500
+      "price": 1500,
+      "sold": true
     },
     {
       "id": "evening-ride",
       "title": "Evening Ride",
       "imageUrl": "evening-ride.jpg",
       "dimensions": "8\" x 11\"",
-      "price": 1500
+      "price": 1500,
+      "sold": true
     },
     {
       "id": "lighthouse",
