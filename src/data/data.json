@@ -1,6 +1,14 @@
 {
-  "latest": ["lioness", "yellow-elephant", "avocets", "salsa", "yellow-elephant"],
+  "latest": ["deers", "lioness", "yellow-elephant", "avocets", "salsa"],
   "paintings": [
+    {
+      "id": "deers",
+      "title": "Deers playing",
+      "imageUrl": "deers.png",
+      "dimensions": "7 \" x 10\"",
+      "price": 2100,
+      "sold": false
+    },
     {
       "id": "goa",
       "title": "Call it a day",
